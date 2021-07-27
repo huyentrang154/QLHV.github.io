@@ -1,0 +1,135 @@
+﻿
+@{
+    ViewBag.Title = "Member_Add_Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <div id="page-wrapper">
+        <h3 class="page-header; col-lg-12" style="padding-bottom: 20px;">Thêm Mới Hội Viên</h3>
+        <form role="form">
+            <div class="row">
+                <div class="col-lg-2">
+
+
+                </div>
+                <div class="col-lg-8">
+
+                    <div class="col-lg-12">
+                        <div class="form-group col-lg-4 text-uppercase text-left" style="padding: 5px 5px;">
+                            <label>Đảng Viên</label>
+                        </div>
+                        <div class="form-group col-lg-7">
+                            <select class="form-control">
+                                <option>Đảng Viên Chính Thức</option>
+
+                                <option>Đảng Viên Dự Bị</option>
+                                <option>Đảng Viên Chuẩn Bị Kết Nạp</option>
+                                <option>Chưa Gì Gì đó quên rồi</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="form-group col-lg-4 text-uppercase text-left" style="padding: 5px 5px;">
+                            <label>Chức Danh</label>
+                        </div>
+                        <div class="form-group col-lg-7">
+                            <input class="form-control" id="disabledInput" type="text" disabled>
+                        </div>
+                        <div class="form-group col-lg-1">
+                            <button type="button" class="btn btn-primary btn-circle">
+                                <i class="fa fa-edit"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="form-group col-lg-4 text-uppercase text-left" style="padding: 5px 5px;">
+                            <label>Lao Động Sáng Tạo</label>
+                        </div>
+                        <div class="form-group col-lg-7">
+                            <input class="form-control" id="disabledInput" type="text" disabled>
+                        </div>
+                        <div class="form-group col-lg-1">
+                            <button type="button" class="btn btn-primary btn-circle">
+                                <i class="fa fa-edit"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="form-group col-lg-4 text-uppercase text-left" style="padding: 5px 5px;">
+                            <label>Danh Hiệu</label>
+                        </div>
+                        <div class="form-group col-lg-7">
+                            <input class="form-control" id="disabledInput" type="text" disabled>
+                        </div>
+                        <div class="form-group col-lg-1">
+                            <button type="button" class="btn btn-primary btn-circle">
+                                <i class="fa fa-edit"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="form-group col-lg-4 text-uppercase text-left" style="padding: 5px 5px;">
+                            <label>Tình Trạng Hôn Nhân</label>
+                        </div>
+                        <div class="form-group col-lg-4">
+                            <select class="form-control">
+
+                                <option></option>
+                                <option value="AL">Độc Thân</option>
+                                ...
+                                <option value="WY">Đã Kết Hôn</option>
+                                <option value="WY">Đã Ly Hôn</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-lg-3 text-uppercase text-left" style="padding: 5px 5px;">
+                            <label>Chồng Cùng Đơn Vị</label>
+                        </div>
+                        <div class="form-group col-lg-1" style="padding: 5px 5px;">
+
+                            <label>
+                                <input type="checkbox" value="">
+                            </label>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="form-group col-lg-4 text-uppercase text-left" style="padding: 5px 5px;">
+                            <label>Tiền Sử Bệnh Cá Nhân</label>
+                        </div>
+                        <div class="form-group col-lg-8">
+
+                            <textarea class="form-control" rows="3">
+                            </textarea>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="form-group col-lg-4 text-uppercase text-left" style="padding: 5px 5px;">
+                            <label>Tiền Sử Bệnh Của Con Gái</label>
+                        </div>
+                        <div class="form-group col-lg-8">
+
+                            <textarea class="form-control" rows="3">
+                            </textarea>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-2">
+                </div>
+            </div>
+            </br>
+            <div class="row col-lg-12">
+                <div class="col-lg-4">
+                </div>
+                <div class="d-flex justify-content-end col-lg-4">
+                    <a class="btn btn-danger text-uppercase text-end px-3" style="margin-right: 20px;" href="~/Member/member_add" type="submit"> Quay lại</a>
+                    <a class="btn btn-primary text-uppercase text-end" style="margin-right: 20px; width: 100px;" href="Member.html" type="submit"> Lưu</a>
+                </div>
+                <div class="col-lg-4">
+                </div>
+            </div>
+        </form>
+    </div>
+

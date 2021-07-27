@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Phần Mềm Quản Lý Hội Phụ Nữ</title>
+
+    <!-- Bootstrap Core CSS -->
+    @Styles.Render("~/Template/css/bootstrap.min.css")
+
+    <!-- MetisMenu CSS -->
+    @Styles.Render("~/Template/css/plugins/metisMenu/metisMenu.min.css")
+
+
+    <!-- DataTables CSS -->
+    @Styles.Render("~/Template/css/plugins/dataTables.bootstrap.css")
+
+
+    <!-- Custom CSS -->
+    @Styles.Render("~/Template/css/sb-admin-2.css")
+
+
+    <!-- Custom Fonts -->
+    @Styles.Render("~/Template/css/font-awesome.css")
+    @Styles.Render("~/Template/font-awesome-4.1.0/css/font-awesome.min.css")
+
+
+    @Styles.Render("https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css")
+
+
+
+</head>
+<body>
+    <style>
+        .footer .fa{
+            margin-right:10px;
+        }
+    </style>
+    <div id="wrapper">
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="~/Member/Index">QUẢN LÝ HỘI VIÊN</a>
+            </div>
+            <!-- /.navbar-header -->
+
+            <ul class="nav navbar-top-links navbar-right">
+                <li>
+
+                    <ul>
+                        <span class="pull-left text-muted">
+                            <em>Xin chào, </em>
+                        </span>
+                        <strong> Nguyễn Văn A</strong>
+
+                    </ul>
+
+                </li>
+
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li>
+                            <a href="#"><i class="fa fa-user fa-fw"></i> Thông Tin Cá Nhân</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#"><i class="fa fa-gear fa-fw"></i> Cài Đặt</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="~/Account/Login"><i class="fa fa-sign-out fa-fw"></i> Đăng Xuất</a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>
+                <!-- /.dropdown -->
+            </ul>
+            <!-- /.navbar-top-links -->
+
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+                        <li class="sidebar-search">
+                            <div class="input-group custom-search-form">
+                                <input type="text" class="form-control" placeholder="Search...">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </span>
+                            </div>
+                            <!-- /input-group -->
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-edit fa-fw"></i> Quản Lý Hội Viên<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="~/Member/Index">Thông Tin Hội Viên</a>
+                                </li>
+                                <li>
+                                    <a href="~/Member/Member_Add">Thêm Mới Hội Viên</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-edit fa-fw"></i> Quản Lý Tài Khoản<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="~/Account/Index">Thông Tin Tài Khoản</a>
+                                </li>
+                                <li>
+                                    <a href="~/Account/Account_add">Thêm Mới Tài Khoản</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Báo Cáo Thống Kê<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="~/Report/Report">Thống Kê Theo Quý</a>
+                                </li>
+                                <li>
+                                    <a href="#">Kho báo cáo thống Kê</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+        <div class="content-wrapper">
+            @RenderBody()
+        </div>
+        <footer>
+            <div class="footer">
+                <div class="about-us">
+                    <div class="about item">
+                        <p id="head">VỀ CHÚNG TÔI</p>
+                        <p><b>Hội Phụ Nữ</b> được thành lập và tháng 8 năm 2016, là tổ chức đi đầu trong các hoạt động dành cho phụ nữ của Học viện Kỹ thuật Quân sự.</p><br>
+                        <p><i class="fa fa-envelope"></i>girl@mta.com</p><br>
+                        <p><i class="fa fa-phone"></i>282.282.9999</p><br>
+                    </div>
+                    <div class="category item">
+                        <p id="head">DANH MỤC</p>
+                        <a href="~/Member/Index"><i class="fa fa-angle-right"></i>Hội viên</a>
+                        <a href="~/Account/Index"><i class="fa fa-angle-right"></i>Tài khoản</a>
+                        <a href="~/Report/Report"><i class="fa fa-angle-right"></i>Thống kê</a>
+                    </div>
+                    <div class="news item">
+                        <p id="head">TIN TỨC NỔI BẬT</p>
+                        <a href="#"><i class="fa fa-angle-right"></i>Hội phụ nữ: Những ý tưởng sáng tạo và ngộ nghĩnh</a><br>
+                        <a href="#"><i class="fa fa-angle-right"></i>Hội công đoàn: Những ý tưởng sáng tạo và ngộ nghĩnh</a><br>
+                        <a href="#"><i class="fa fa-angle-right"></i>Học viện kỹ thuật quân sự: Những ý tưởng sáng tạo và ngộ nghĩnh</a>
+                    </div>
+                    <div class="fanpage item">
+                        <p id="head">FANPAGE</p>
+                        <div class="fb-page" data-href="https://www.facebook.com/Cristiano" data-tabs="" data-width="270" data-height="" data-small-header="fasse" data-adapt-container-width="true" data-hide-cover="fasse" data-show-facepile="true">
+                            <blockquote cite="https://www.facebook.com/Cristiano" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Cristiano">Cristiano Ronaldo</a></blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    @Scripts.Render("~/Template/js/jquery-1.11.0.js")
+
+    <!-- Bootstrap Core JavaScript -->
+    @Scripts.Render("~/Template/js/bootstrap.min.js")
+
+    <!-- Metis Menu Plugin JavaScript -->
+    @Scripts.Render("~/Template/js/plugins/metisMenu/metisMenu.min.js")
+
+
+    <!-- DataTables JavaScript -->
+    @Scripts.Render("~/Template/js/plugins/dataTables/jquery.dataTables.js")
+    @Scripts.Render("~/Template/js/plugins/dataTables/dataTables.bootstrap.js")
+    @Scripts.Render("https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js")
+    
+
+    <!-- Custom Theme JavaScript -->
+    @Scripts.Render("~/Template/js/sb-admin-2.js")
+    @RenderSection("scripts", required: false)
+    <script>
+        $(document).ready(function () {
+            $('#dataTables-example').dataTable();
+        });
+    </script>
+    @RenderSection("scripts", required: false)
+    <script>
+        $(document).ready(function () {
+            $('.js-example-basic-multiple').select2();
+        });
+    </script>
+</body>
+</html>

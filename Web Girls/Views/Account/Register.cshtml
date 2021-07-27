@@ -1,0 +1,84 @@
+﻿
+@{
+    Layout = null;
+    ViewBag.Title = "Register";
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Đăng ký</title>
+    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="~/Template/css_b/bootstrap.min.css">
+
+    <!-- Font Awesome Stylesheet -->
+    <link rel="stylesheet" href="~/Template/font-awesome-4.1.0/css/font-awesome.min.css">
+
+    <!-- Custom Stylesheets -->
+    <link rel="stylesheet" href="~/Template/css_b/style.css">
+    <link rel="stylesheet" id="cpswitch" href="~/Template/css_b/orange.css">
+    <link rel="stylesheet" href="~/Template/css_b/responsive.css">
+</head>
+<body>
+    <section class="innerpage-wrapper">
+        <div id="registration" class="innerpage-section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+
+                        <div class="flex-content">
+                            <div class="custom-form custom-form-fields">
+                                <h3 style="text-align:center;">Đăng ký Tài Khoản</h3>
+                                <form>
+
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Tài Khoản" required />
+                                        <span><i class="fa fa-user"></i></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Email" required />
+                                        <span><i class="fa fa-envelope"></i></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" placeholder="Mật Khẩu" required />
+                                        <span><i class="fa fa-lock"></i></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" placeholder="Xác nhận Mật khẩu" required />
+                                        <span><i class="fa fa-lock"></i></span>
+                                    </div>
+
+                                    <button class="btn btn-orange btn-block">Đăng ký</button>
+                                </form>
+
+                                <div class="other-links">
+                                    <p class="link-line">Bạn đã có Tài khoản? <a href="~/Account/Login">Đăng nhập ở đây</a></p>
+                                </div>
+                                <!-- end other-links -->
+                            </div>
+                            <!-- end custom-form -->
+
+                            <div class="flex-content-img custom-form-img">
+                                <img src="~/Template/images/480x640-wonder-woman-art.jpg" class="img-responsive" alt="registration-img" />
+                            </div>
+                            <!-- end custom-form-img -->
+                        </div>
+                        <!-- end form-content -->
+
+                    </div>
+                    <!-- end columns -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end registration -->
+    </section>
+</body>
+</html>

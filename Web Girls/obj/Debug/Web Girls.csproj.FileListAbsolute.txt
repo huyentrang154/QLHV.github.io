@@ -1,0 +1,158 @@
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\Web Girls.dll.config
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\Web Girls.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\Web Girls.pdb
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\csc.exe
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\csc.exe.config
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\csc.rsp
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\csi.exe
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\csi.exe.config
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\csi.rsp
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\System.AppContext.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\System.Console.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\System.IO.Compression.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\System.Net.Http.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\System.Net.Sockets.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\System.ValueTuple.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\System.Xml.XPath.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\vbc.exe
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\vbc.exe.config
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\vbc.rsp
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\VBCSCompiler.exe
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\Antlr3.Runtime.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\Newtonsoft.Json.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\System.Web.Helpers.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\System.Web.Mvc.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\System.Web.Optimization.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\System.Web.Razor.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\System.Web.WebPages.Deployment.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\System.Web.WebPages.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\System.Web.WebPages.Razor.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\WebGrease.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\System.Web.Helpers.xml
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\System.Web.Mvc.xml
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\System.Web.Optimization.xml
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\System.Web.Razor.xml
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\System.Web.WebPages.xml
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\System.Web.WebPages.Deployment.xml
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\System.Web.WebPages.Razor.xml
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\Newtonsoft.Json.xml
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\Antlr3.Runtime.pdb
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\PC\source\repos\Web Girls\Web Girls\obj\Debug\Web Girls.csproj.CopyComplete
+C:\Users\PC\source\repos\Web Girls\Web Girls\obj\Debug\Web Girls.dll
+C:\Users\PC\source\repos\Web Girls\Web Girls\obj\Debug\Web Girls.pdb
+C:\Users\PC\source\repos\Web Girls\Web Girls\obj\Debug\Web Girls.csprojAssemblyReference.cache
+C:\Users\PC\source\repos\Web Girls\Web Girls\bin\Aspose.Words.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\Web Girls.dll.config
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\Web Girls.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\Web Girls.pdb
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\csc.exe
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\csc.exe.config
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\csc.rsp
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\csi.exe
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\csi.exe.config
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\csi.rsp
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\Microsoft.Managed.Core.targets
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\System.AppContext.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\System.Collections.Immutable.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\System.Console.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\System.Globalization.Calendars.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\System.IO.Compression.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\System.IO.FileSystem.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\System.Net.Http.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\System.Net.Sockets.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\System.Reflection.Metadata.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\System.ValueTuple.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\System.Xml.XmlDocument.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\System.Xml.XPath.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\vbc.exe
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\vbc.exe.config
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\vbc.rsp
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\VBCSCompiler.exe
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\roslyn\VBCSCompiler.exe.config
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\Antlr3.Runtime.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\Microsoft.Web.Infrastructure.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\Newtonsoft.Json.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\System.Web.Helpers.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\System.Web.Mvc.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\System.Web.Optimization.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\System.Web.Razor.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\System.Web.WebPages.Deployment.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\System.Web.WebPages.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\System.Web.WebPages.Razor.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\WebGrease.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\System.Web.Helpers.xml
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\System.Web.Mvc.xml
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\System.Web.Optimization.xml
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\System.Web.Razor.xml
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\System.Web.WebPages.xml
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\System.Web.WebPages.Deployment.xml
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\System.Web.WebPages.Razor.xml
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\Newtonsoft.Json.xml
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\Antlr3.Runtime.pdb
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\obj\Debug\Web Girls.csproj.AssemblyReference.cache
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\obj\Debug\Web Girls.csproj.CoreCompileInputs.cache
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\obj\Debug\Web Girls.csproj.CopyComplete
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\obj\Debug\Web Girls.dll
+C:\VIET\Web Girl\Web Girls[ZaloPC_Folder]\Web Girls\obj\Debug\Web Girls.pdb

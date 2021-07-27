@@ -1,0 +1,176 @@
+﻿
+@{
+    ViewBag.Title = "Member_Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    
+}
+
+<div id="page-wrapper">
+    <h3 class="page-header; col-lg-12" style="padding-bottom: 20px;">Thêm Mới Hội Viên</h3>
+    <form role="form">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="col-lg-12">
+                    <div class="form-group col-lg-4 text-uppercase text-left" style="padding: 5px 5px;">
+                        <label>Mã Hội viên</label>
+                    </div>
+                    <div class="form-group col-lg-8">
+                        <input class="form-control" placeholder="Mã Hội viên">
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="form-group col-lg-4 text-uppercase text-left" style="padding: 5px 5px;">
+                        <label>Họ Và Tên</label>
+                    </div>
+                    <div class="form-group col-lg-8">
+                        <input class="form-control" placeholder="Họ Và Tên">
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="form-group col-lg-4 text-uppercase text-left" style="padding: 5px 5px;">
+                        <label>Giới Tính</label>
+                    </div>
+                    <div class="form-group col-lg-8">
+                        <select class="form-control">
+                            <option value="AL">Nam </option>
+                            <option value="WY">Nữ</option>
+                            <option value="WY">Khác</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="form-group col-lg-4 text-uppercase text-left" style="padding: 5px 5px;">
+                        <label>Ngày Sinh</label>
+                    </div>
+                    <div class="form-group col-lg-8">
+                        <input type="datetime-local" placeholder="01-01-1999" class="form-control">
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="form-group col-lg-4 text-uppercase text-left" style="padding: 5px 5px;">
+                        <label>Dân Tộc</label>
+                    </div>
+                    <div class="form-group col-lg-8">
+
+                        <input class="form-control" placeholder="Dân Tộc">
+
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="form-group col-lg-4 text-uppercase text-left" style="padding: 5px 5px;">
+                        <label>Đơn Vị</label>
+                    </div>
+                    <div class="form-group col-lg-8">
+
+                        <input class="form-control" placeholder="Đơn Vị">
+
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="form-group col-lg-4 text-uppercase text-left" style="padding: 5px 5px;">
+                        <label>Địa Chỉ</label>
+                    </div>
+                    <div class="form-group col-lg-8">
+
+                        <textarea class="form-control" rows="3">
+                                </textarea>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-6">
+
+                <div class="col-lg-12">
+                    <div class="form-group col-lg-4 text-uppercase text-left" style="padding: 5px 5px;">
+                        <label>Cấp Bậc</label>
+                    </div>
+                    <div class="form-group col-lg-8">
+                        <input class="form-control" placeholder="Trung úy, Thượng Úy QNCN ...">
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="form-group col-lg-4 text-uppercase text-left" style="padding: 5px 5px;">
+                        <label>Năm Nhập Ngũ</label>
+                    </div>
+                    <div class="form-group col-lg-8">
+                        <input type="datetime-local" placeholder="01-01-1999" class="form-control">
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="form-group col-lg-4 text-uppercase text-left" style="padding: 5px 5px;">
+                        <label>Loại Hội Viên</label>
+                    </div>
+                    <div class="form-group col-lg-8">
+                        <select class="form-control">
+                            <option value="AL">Sỹ Quan</option>
+
+                            <option value="WY">Quân Nhân Chuyên Nghiệp</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="form-group col-lg-4 text-uppercase text-left" style="padding: 5px 5px;">
+                        <label>Trình Độ</label>
+                    </div>
+                    <div class="form-group col-lg-8">
+                        <select class="form-control">
+                            <option value="AL">Cao Đẳng </option>
+                            <option value="WY">Trung Cấp</option>
+                            <option value="WY">Đại Học</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="form-group col-lg-4 text-uppercase text-left" style="padding: 5px 5px;">
+                        <label>Hội Tham Gia</label>
+                    </div>
+                    <div class="form-group col-lg-8">
+                        <select class="js-example-basic-multiple form-control" name="states[]" multiple="multiple">
+                            <option></option>
+                            <option value="AL">Phụ nữ</option>
+                            ...
+                            <option value="WY">Công đoàn</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="form-group col-lg-4 text-uppercase text-left" style="padding: 5px 5px;">
+                        <label>Ngày Tham Gia</label>
+                    </div>
+                    <div class="form-group col-lg-8">
+                        <input type="datetime-local" placeholder="01-01-1999" class="form-control">
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="form-group col-lg-4 text-uppercase text-left" style="padding: 5px 5px;">
+                        <label>Vị Trí Trong Hội</label>
+                    </div>
+                    <div class="form-group col-lg-8">
+                        <select class="form-control">
+                            <option value="AL">Hội Viên </option>
+                            <option value="WY">Học Viên</option>
+                            <option value="WY">Hội Trưởng</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        </br>
+        </br>
+        <div class="row col-lg-12">
+            <div class="col-lg-4">
+            </div>
+            <div class="d-flex justify-content-end col-lg-4">
+                <a class="btn btn-danger text-uppercase text-end px-3" style="margin-right: 20px;" href="~/Member/Member_Add" type="submit"> Quay lại</a>
+                <a class="btn btn-primary text-uppercase text-end" href="~/Member/member_Add_Detail" type="submit"> Tiếp Theo</a>
+            </div>
+        </div>
+    </form>
+</div>
+
