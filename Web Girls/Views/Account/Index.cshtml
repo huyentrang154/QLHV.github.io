@@ -1,4 +1,5 @@
-﻿
+﻿@using Web_Girls.Models.ModelsView;
+@model List<AccountView>
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -19,6 +20,7 @@
                                 <thead>
                                     <tr>
                                         <th>STT</th>
+                                        <th>Mã Hội Viên</th>
                                         <th>Tên Hội Viên</th>
                                         <th>Nhóm Quyền</th>
                                         <th>Khóa</th>
@@ -27,12 +29,22 @@
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    @foreach (var it in Model)
+                                    {
                                     <tr>
-                                        <td>1</td>
-                                        <td>Nguyễn Văn A</td>
-                                        <td>Hội Viên</td>
-                                        <td class="center"><input type="checkbox" name="Khoa" id="Khoa"></td>
-                                        <td class="center">01/07/2021</td>
+                                        <td>@it.STT</td>
+                                        <td><a href=/Account/ViewAccount/@it.TenDN>@it.MaHV</a></td>
+                                        <td>@it.TenHV</td>
+                                        <td>@it.Quyen</td>
+                                        @if (it.Khoa)
+                                        {
+                                            <td class="center"><input type="checkbox" name="Khoa" id="Khoa" checked></td>
+                                        }
+                                        @if (!it.Khoa)
+                                        {
+                                            <td class="center"><input type="checkbox" name="Khoa" id="Khoa"></td>
+                                        }
+                                        <td class="center">@it.EditTime</td>
                                         @*<td class="center" style="list-style-type: none;">
             <li class="dropdown">
                 <button aria-expanded="false" aria-haspopup="true" class="btn btn-primary btn-sm" data-toggle="dropdown" type="button"><i class="fa fa-bars"></i></button>
@@ -56,286 +68,10 @@
             </li>
 
         </td>*@
-                                        <td>Nguyễn Văn A</td>
+                                        <td>@it.TenDN</td>
+                                        @* <a> href=/Account/ViewAccount</a>*@
                                     </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>Nguyễn Văn B</td>
-                                        <td>Hội Viên</td>
-                                        <td class="center"><input type="checkbox" name="Khoa" id="Khoa"></td>
-                                        <td class="center">02/07/2021</td>
-                                        @*<td class="center" style="list-style-type: none;">
-            <li class="dropdown">
-                <button aria-expanded="false" aria-haspopup="true" class="btn btn-primary btn-sm" data-toggle="dropdown" type="button"><i class="fa fa-bars"></i></button>
-                <ul class="dropdown-menu dropdown-menu-right">
-                    <li>
-                        <a href="chitiet.html"><i class="fa fa-eye"></i>&nbsp;   Chi tiết</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="capnhat.html">
-                            <i aria-hidden="true"
-                               class="fa fa-save"></i>&nbsp;   Cập nhật
-                        </a>
-                    </li>
-                    <li class="divider"></li>
-
-                    <li>
-                        <a id="xoa" onclick="xoa()"><i class="fa fa-edit"></i>&nbsp;   Xóa</a>
-                    </li>
-                </ul>
-            </li>
-
-        </td>*@
-                                        <td>Nguyễn Văn A</td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>Nguyễn Văn C</td>
-                                        <td>Hội Viên</td>
-                                        <td class="center"><input type="checkbox" name="Khoa" id="Khoa"></td>
-                                        <td class="center">03/07/2021</td>
-                                        @*<td class="center" style="list-style-type: none;">
-            <li class="dropdown">
-                <button aria-expanded="false" aria-haspopup="true" class="btn btn-primary btn-sm" data-toggle="dropdown" type="button"><i class="fa fa-bars"></i></button>
-                <ul class="dropdown-menu dropdown-menu-right">
-                    <li>
-                        <a href="chitiet.html"><i class="fa fa-eye"></i>&nbsp;   Chi tiết</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="capnhat.html">
-                            <i aria-hidden="true"
-                               class="fa fa-save"></i>&nbsp;   Cập nhật
-                        </a>
-                    </li>
-                    <li class="divider"></li>
-
-                    <li>
-                        <a id="xoa" onclick="xoa()"><i class="fa fa-edit"></i>&nbsp;   Xóa</a>
-                    </li>
-                </ul>
-            </li>
-
-        </td>*@
-                                        <td>Nguyễn Văn A</td>
-                                    </tr>
-                                    <tr>
-                                        <td>4</td>
-                                        <td>Nguyễn Văn D</td>
-                                        <td>Hội Viên</td>
-                                        <td class="center"><input type="checkbox" name="Khoa" id="Khoa"></td>
-                                        <td class="center">03/07/2021</td>
-                                        @*<td class="center" style="list-style-type: none;">
-            <li class="dropdown">
-                <button aria-expanded="false" aria-haspopup="true" class="btn btn-primary btn-sm" data-toggle="dropdown" type="button"><i class="fa fa-bars"></i></button>
-                <ul class="dropdown-menu dropdown-menu-right">
-                    <li>
-                        <a href="chitiet.html"><i class="fa fa-eye"></i>&nbsp;   Chi tiết</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="capnhat.html">
-                            <i aria-hidden="true"
-                               class="fa fa-save"></i>&nbsp;   Cập nhật
-                        </a>
-                    </li>
-                    <li class="divider"></li>
-
-                    <li>
-                        <a id="xoa" onclick="xoa()"><i class="fa fa-edit"></i>&nbsp;   Xóa</a>
-                    </li>
-                </ul>
-            </li>
-
-        </td>*@
-                                        <td>Nguyễn Văn A</td>
-                                    </tr>
-                                    <tr>
-                                        <td>5</td>
-                                        <td>Nguyễn Văn A</td>
-                                        <td>Hội Viên</td>
-                                        <td class="center"><input type="checkbox" name="Khoa" id="Khoa"></td>
-                                        <td class="center">01/07/2021</td>
-                                        @*<td class="center" style="list-style-type: none;">
-            <li class="dropdown">
-                <button aria-expanded="false" aria-haspopup="true" class="btn btn-primary btn-sm" data-toggle="dropdown" type="button"><i class="fa fa-bars"></i></button>
-                <ul class="dropdown-menu dropdown-menu-right">
-                    <li>
-                        <a href="chitiet.html"><i class="fa fa-eye"></i>&nbsp;   Chi tiết</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="capnhat.html">
-                            <i aria-hidden="true"
-                               class="fa fa-save"></i>&nbsp;   Cập nhật
-                        </a>
-                    </li>
-                    <li class="divider"></li>
-
-                    <li>
-                        <a id="xoa" onclick="xoa()"><i class="fa fa-edit"></i>&nbsp;   Xóa</a>
-                    </li>
-                </ul>
-            </li>
-
-        </td>*@
-                                        <td>Nguyễn Văn A</td>
-                                    </tr>
-                                    <tr>
-                                        <td>6</td>
-                                        <td>Nguyễn Văn A</td>
-                                        <td>Hội Viên</td>
-                                        <td class="center"><input type="checkbox" name="Khoa" id="Khoa"></td>
-                                        <td class="center">01/07/2021</td>
-                                        @*<td class="center" style="list-style-type: none;">
-            <li class="dropdown">
-                <button aria-expanded="false" aria-haspopup="true" class="btn btn-primary btn-sm" data-toggle="dropdown" type="button"><i class="fa fa-bars"></i></button>
-                <ul class="dropdown-menu dropdown-menu-right">
-                    <li>
-                        <a href="chitiet.html"><i class="fa fa-eye"></i>&nbsp;   Chi tiết</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="capnhat.html">
-                            <i aria-hidden="true"
-                               class="fa fa-save"></i>&nbsp;   Cập nhật
-                        </a>
-                    </li>
-                    <li class="divider"></li>
-
-                    <li>
-                        <a id="xoa" onclick="xoa()"><i class="fa fa-edit"></i>&nbsp;   Xóa</a>
-                    </li>
-                </ul>
-            </li>
-
-        </td>*@
-                                        <td>Nguyễn Văn A</td>
-                                    </tr>
-                                    <tr>
-                                        <td>7</td>
-                                        <td>Nguyễn Văn A</td>
-                                        <td>Hội Viên</td>
-                                        <td class="center"><input type="checkbox" name="Khoa" id="Khoa"></td>
-                                        <td class="center">02/07/2021</td>
-                                        @*<td class="center" style="list-style-type: none;">
-            <li class="dropdown">
-                <button aria-expanded="false" aria-haspopup="true" class="btn btn-primary btn-sm" data-toggle="dropdown" type="button"><i class="fa fa-bars"></i></button>
-                <ul class="dropdown-menu dropdown-menu-right">
-                    <li>
-                        <a href="chitiet.html"><i class="fa fa-eye"></i>&nbsp;   Chi tiết</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="capnhat.html">
-                            <i aria-hidden="true"
-                               class="fa fa-save"></i>&nbsp;   Cập nhật
-                        </a>
-                    </li>
-                    <li class="divider"></li>
-
-                    <li>
-                        <a id="xoa" onclick="xoa()"><i class="fa fa-edit"></i>&nbsp;   Xóa</a>
-                    </li>
-                </ul>
-            </li>
-
-        </td>*@
-                                        <td>Nguyễn Văn A</td>
-                                    </tr>
-                                    <tr>
-                                        <td>8</td>
-                                        <td>Nguyễn Văn A</td>
-                                        <td>Hội Viên</td>
-                                        <td class="center"><input type="checkbox" name="Khoa" id="Khoa"></td>
-                                        <td class="center">03/07/2021</td>
-                                        @*<td class="center" style="list-style-type: none;">
-            <li class="dropdown">
-                <button aria-expanded="false" aria-haspopup="true" class="btn btn-primary btn-sm" data-toggle="dropdown" type="button"><i class="fa fa-bars"></i></button>
-                <ul class="dropdown-menu dropdown-menu-right">
-                    <li>
-                        <a href="chitiet.html"><i class="fa fa-eye"></i>&nbsp;   Chi tiết</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="capnhat.html">
-                            <i aria-hidden="true"
-                               class="fa fa-save"></i>&nbsp;   Cập nhật
-                        </a>
-                    </li>
-                    <li class="divider"></li>
-
-                    <li>
-                        <a id="xoa" onclick="xoa()"><i class="fa fa-edit"></i>&nbsp;   Xóa</a>
-                    </li>
-                </ul>
-            </li>
-
-        </td>*@
-                                        <td>Nguyễn Văn A</td>
-                                    </tr>
-                                    <tr>
-                                        <td>9</td>
-                                        <td>Nguyễn Văn A</td>
-                                        <td>Hội Viên</td>
-                                        <td class="center"><input type="checkbox" name="Khoa" id="Khoa"></td>
-                                        <td class="center">01/07/2021</td>
-                                        @*<td class="center" style="list-style-type: none;">
-            <li class="dropdown">
-                <button aria-expanded="false" aria-haspopup="true" class="btn btn-primary btn-sm" data-toggle="dropdown" type="button"><i class="fa fa-bars"></i></button>
-                <ul class="dropdown-menu dropdown-menu-right">
-                    <li>
-                        <a href="chitiet.html"><i class="fa fa-eye"></i>&nbsp;   Chi tiết</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="capnhat.html">
-                            <i aria-hidden="true"
-                               class="fa fa-save"></i>&nbsp;   Cập nhật
-                        </a>
-                    </li>
-                    <li class="divider"></li>
-
-                    <li>
-                        <a id="xoa" onclick="xoa()"><i class="fa fa-edit"></i>&nbsp;   Xóa</a>
-                    </li>
-                </ul>
-            </li>
-
-        </td>*@
-                                        <td>Nguyễn Văn A</td>
-                                    </tr>
-                                    <tr>
-                                        <td>10</td>
-                                        <td>Nguyễn Văn A</td>
-                                        <td>Hội Viên</td>
-                                        <td class="center"><input type="checkbox" name="Khoa" id="Khoa"></td>
-                                        <td class="center">02/07/2021</td>
-                                        @*<td class="center" style="list-style-type: none;">
-            <li class="dropdown">
-                <button aria-expanded="false" aria-haspopup="true" class="btn btn-primary btn-sm" data-toggle="dropdown" type="button"><i class="fa fa-bars"></i></button>
-                <ul class="dropdown-menu dropdown-menu-right">
-                    <li>
-                        <a href="chitiet.html"><i class="fa fa-eye"></i>&nbsp;   Chi tiết</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="capnhat.html">
-                            <i aria-hidden="true"
-                               class="fa fa-save"></i>&nbsp;   Cập nhật
-                        </a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a id="xoa" onclick="xoa()"><i class="fa fa-edit"></i>&nbsp;   Xóa</a>
-                    </li>
-                </ul>
-            </li>
-
-        </td>*@
-                                        <td>Nguyễn Văn A</td>
-                                    </tr>
+                                    }
                                 </tbody>
                             </table>
                         </div>
