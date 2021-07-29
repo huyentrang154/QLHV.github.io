@@ -49,10 +49,18 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>E:\TaiLieuNam5\NAM5_HOCKY1\Thuc_Tap_Cong_Nghiep\ttcn-web-master\ThucTapCongNghiep\bin\Aspose.Words.dll</HintPath>
     </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -130,12 +138,48 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Context\BCH_CD.cs" />
+    <Compile Include="Models\Context\BCH_HPN.cs" />
+    <Compile Include="Models\Context\CapBac.cs" />
+    <Compile Include="Models\Context\CapLaiMatKhau.cs" />
+    <Compile Include="Models\Context\ChiBo.cs" />
+    <Compile Include="Models\Context\ChucDanh.cs" />
+    <Compile Include="Models\Context\CongDoan.cs" />
+    <Compile Include="Models\Context\DangUy.cs" />
+    <Compile Include="Models\Context\DanhHieu.cs" />
+    <Compile Include="Models\Context\DonVi.cs" />
+    <Compile Include="Models\Context\HoanCanhGD.cs" />
+    <Compile Include="Models\Context\HoiPhuNu.cs" />
+    <Compile Include="Models\Context\HoiVien.cs" />
+    <Compile Include="Models\Context\HoiVien_LDST.cs" />
+    <Compile Include="Models\Context\LaoDongSangTao.cs" />
+    <Compile Include="Models\Context\LichSuCapBac.cs" />
+    <Compile Include="Models\Context\LichSuChucDanh.cs" />
+    <Compile Include="Models\Context\LichSuDanhHieu.cs" />
+    <Compile Include="Models\Context\LichSuTrinhDo.cs" />
+    <Compile Include="Models\Context\LoaiDangVien.cs" />
+    <Compile Include="Models\Context\LoaiHoiVien.cs" />
+    <Compile Include="Models\Context\LoaiLDST.cs" />
+    <Compile Include="Models\Context\MyContext.cs" />
+    <Compile Include="Models\Context\TaiKhoan.cs" />
+    <Compile Include="Models\Context\ToChucDoanThe.cs" />
+    <Compile Include="Models\Context\TrinhDo.cs" />
     <Compile Include="Models\Field.cs" />
+    <Compile Include="Models\ModelsView\AccountView.cs" />
+    <Compile Include="Models\ModelsView\AccountViewItem.cs" />
+    <Compile Include="Models\Reponsivity\AccountResposi.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\css\bootstrap-responsive.min.css" />
+    <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\css\theme.css" />
+    <Content Include="Content\js\bootstrap.min.js" />
+    <Content Include="Content\js\common.js" />
+    <Content Include="Content\js\jquery-1.9.1.min.js" />
+    <Content Include="Content\js\jquery-ui-1.10.1.custom.min.js" />
     <Content Include="Content\plugins\datatables.bootstrap.css" />
     <Content Include="Content\plugins\metisMenu\metismenu.css" />
     <Content Include="Content\plugins\metisMenu\metismenu.min.css" />
@@ -258,6 +302,7 @@
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Member\Member_Detail.cshtml" />
+    <Content Include="Views\Account\ViewAccount.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
